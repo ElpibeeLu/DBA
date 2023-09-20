@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulario de Ejemplo</title>
+
+</head>
+<body>
+
+<h2>Formulario de Inscripción</h2>
+
+<form action="/submit" method="post">
+  <!-- Nombre y Apellidos -->
+  <label for="name">Nombre y Apellidos:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <!-- Fecha de Nacimiento -->
+  <label for="birthdate">Fecha de Nacimiento:</label><br>
+  <input type="date" id="birthdate" name="birthdate"><br>
+
+  <!-- Ocupación -->
+  <label for="occupation">Ocupación:</label><br>
+  <input type="text" id="occupation" name="occupation"><br>
+
+  <!-- Contacto -->
+  <label for="contact">Contacto (teléfono, email):</label><br>
+  <input type="text" id="contact" name="contact"><br>
+
+  <!-- Nacionalidad -->
+  <label for="Nacioanlidad">Nacionalidad:</label><br>
+  <select id="nationality" name="nationality">
+    <option value="usa">Estados Unidos</option>
+    <option value="mexico">México</option>
+    <option value="Peru">España</option>
+    
+  </select><br>
+
+  <!-- Nivel de inglés -->
+  <label>Nivel de inglés:</label><br>
+  <input type="radio" id="basic" name="englishLevel" value="basic">
+  <label for="basic">Básico</label><br>
+  <input type="radio" id="intermediate" name="englishLevel" value="intermediate">
+  <label for="intermediate">Intermedio</label><br>
+  <input type="radio" id="advanced" name="englishLevel" value="advanced">
+  <label for="advanced">Avanzado</label><br>
+  <input type="radio" id="fluent" name="englishLevel" value="fluent">
+  <label for="fluent">Fluido</label><br>
+
+  <!-- Lenguajes de programación -->
+  <label for="languages">Lenguajes de programación:</label><br>
+  <select id="languages" name="languages" multiple>
+    <option value="python">Python</option>
+    <option value="java">Java</option>
+    <option value="javascript">JavaScript</option>
+  </select><br>
+ 
+  <!-- Aptitudes -->
+  <label for="skills"d>Aptitudes:</label><br>
+  <input list="skillOptions" id="skills" name="skills">
+  <datalist id="skillOptions">
+    <option value="Comunicación">
+    <option value="Trabajo en equipo">
+    <option value="Resolución de problemas">
+    
+  </datalist><br>
+
+  <!-- Habilidades -->
+  <label>Habilidades:</label><br>
+  <input type="checkbox" id="coding" name="skills" value="coding">
+  <label for="coding">Programación</label><br>
+  <input type="checkbox" id="design" name="skills" value="design">
+  <label for="design">Diseño</label><br>
+  
+
+  <!-- Perfil -->
+  <label for="profile">Perfil:</label><br>
+  <textarea id="profile" name="profile" rows="4" cols="50"></textarea><br>
+
+  <!-- Botón de envío -->
+  <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
