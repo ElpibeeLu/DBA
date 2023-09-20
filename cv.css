@@ -1,0 +1,84 @@
+/* Estilos globales */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 1em;
+    width: 900px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+
+/* Imagen de perfil */
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
+
+/* Título principal */
+h1 {
+    margin-top: 80px;
+    font-size: 36px;
+    margin-left: 200px;
+}
+
+/* Subtítulo */
+h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Subtítulo secundario */
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    width: 920px;
+    margin: 20px auto;
+}
+
+/* Columna izquierda */
+.left-column {
+    padding: 20px;
+    flex: 1;
+    background-color: #f2f2f2;
+}
+
+/* Columna derecha */
+.right-column {
+    padding: 20px;
+    flex: 2;
+    background-color: #ffffff;
+}
+
+/* Título de sección */
+.section-title {
+    border-bottom: 2px solid #4CAF50;
+    padding: 10px 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Lista */
+ul li {
+    margin-bottom: 15px;
+}
