@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulario de Ejemplo</title>
+
+</head>
+<body>
+
+<h2>Formulario de Inscripcion</h2>
+
+<form action="datos.php" method="post">
+  <!-- Nombre y Apellidos -->
+  <label for="name">Nombre y Apellidos:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <!-- Fecha de Nacimiento -->
+  <label for="birthdate">Fecha de Nacimiento:</label><br>
+  <input type="date" id="birthdate" name="birthdate"><br>
+
+ 
+
+
+  <!-- Nivel de inglés -->
+  <label>Nivel de ingles:</label><br>
+  <input type="radio" id="basic" name="englishLevel" value="basic">
+  <label for="basic">Basico</label><br>
+  <input type="radio" id="intermediate" name="englishLevel" value="intermediate">
+  <label for="intermediate">Intermedio</label><br>
+  <input type="radio" id="advanced" name="englishLevel" value="advanced">
+  <label for="advanced">Avanzado</label><br>
+  <input type="radio" id="fluent" name="englishLevel" value="fluent">
+  <label for="fluent">Fluido</label><br>
+
+
+ 
+  <!-- Aptitudes -->
+  <label for="skills"d>Aptitudes:</label><br>
+  <input list="skillOptions" id="skills" name="skills">
+  <datalist id="skillOptions">
+    <option value="Comunicacion">
+    <option value="Trabajo en equipo">
+    <option value="Resolucion de problemas">
+    
+  </datalist><br>
+
+<!-- Habilidades -->
+<label for="hab">Habilidades:</label><br>
+<input type="text" id="hab" name="hab" placeholder="Escribe tus habilidades separadas por comas"><br>
+
+
+
+   <label for="workExperience">Experiencia Laboral:</label><br>
+  <textarea id="workExperience" name="workExperience" rows="4" cols="50" placeholder="Describe tu experiencia laboral aquí..."></textarea><br>
+
+  <!-- Formación -->
+  <label for="education">Formacion:</label><br>
+  <textarea id="education" name="education" rows="4" cols="50" placeholder="Describe tu formación aquí..."></textarea><br>
+
+
+  <!-- Botón de envío -->
+  <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>

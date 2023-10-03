@@ -1,0 +1,40 @@
+Nombre: e32e2
+Fecha de Nacimiento: 13312-03-12
+Nivel de Inglés: fluent
+Aptitudes: 13213
+Habilidades: 
+Experiencia: 1231231
+Formación: 3123131
+
+Nombre: dwed
+Fecha de Nacimiento: 3333-03-12
+Nivel de Inglés: advanced
+Aptitudes: dwd
+Habilidades: dewdwed
+Experiencia: dewdew
+Formación: dewdwe
+
+Nombre: dwed
+Fecha de Nacimiento: 3333-03-12
+Nivel de Inglés: advanced
+Aptitudes: dwd
+Habilidades: dewdwed
+Experiencia: dewdew
+Formación: dewdwe
+
+Nombre: rwrewr
+Fecha de Nacimiento: 1222-03-12
+Nivel de Inglés: basic
+Aptitudes: Comunicacion
+Habilidades: dewdwed
+Experiencia: 321312312
+Formación: 31231312312
+
+Nombre: Untitled
+Fecha de Nacimiento: 3333-03-12
+Nivel de Inglés: basic
+Aptitudes: Comunicacion
+Habilidades: dewdwed
+Experiencia: dewdwed
+Formación: wedewdwe
+
