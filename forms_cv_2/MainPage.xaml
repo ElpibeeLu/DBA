@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="forms_cv_2.MainPage">
+
+    <StackLayout Padding="30">
+        <Label Text="Formulario de Registro" FontSize="Title" HorizontalTextAlignment="Center" Padding="10"/>
+
+     
+        <Entry x:Name="nombreEntry" Placeholder="Nombre" Margin="0,10,0,0"/>
+
+     
+        <Entry x:Name="apellidoEntry" Placeholder="Apellido" Margin="0,10,0,0"/>
+
+
+        <Entry x:Name="telefonoEntry" Placeholder="Número de Teléfono" Keyboard="Telephone" Margin="0,10,0,0"/>
+
+       
+        <Entry x:Name="correoEntry" Placeholder="Correo Electrónico" Keyboard="Email" Margin="0,10,0,0"/>
+
+       
+        <Entry x:Name="ocupacionEntry" Placeholder="Ocupación" Margin="0,10,0,0"/>
+
+        
+
+        <Button Text="Enviar" BackgroundColor="#2196F3" TextColor="White" Margin="0,20,0,0" Clicked="OnSubmitClicked"/>
+    </StackLayout>
+
+</ContentPage>

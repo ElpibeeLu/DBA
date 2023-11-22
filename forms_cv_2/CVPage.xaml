@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="forms_cv_2.CVPage">
+
+    <ScrollView>
+        <StackLayout Padding="30">
+            <Label Text="Curriculum Vitae" FontSize="Large" HorizontalOptions="Center"/>
+
+          
+            <Frame CornerRadius="10" Padding="15" Margin="10">
+                <StackLayout>
+                    <Label Text="Nombre:" FontAttributes="Bold"/>
+                    <Label x:Name="nombreLabel"/>
+
+                    <Label Text="Apellido:" FontAttributes="Bold"/>
+                    <Label x:Name="apellidoLabel"/>
+                </StackLayout>
+            </Frame>
+
+          
+            <Frame CornerRadius="10" Padding="15" Margin="10">
+                <StackLayout>
+                    <Label Text="Información de Contacto" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+                    <Label Text="Número de Teléfono:" FontAttributes="Bold"/>
+                    <Label x:Name="telefonoLabel"/>
+
+                    <Label Text="Correo Electrónico:" FontAttributes="Bold"/>
+                    <Label x:Name="correoLabel"/>
+                </StackLayout>
+            </Frame>
+
+           
+            <Frame CornerRadius="10" Padding="15" Margin="10">
+                <StackLayout>
+                    <Label Text="Ocupación:" FontAttributes="Bold"/>
+                    <Label x:Name="ocupacionLabel"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

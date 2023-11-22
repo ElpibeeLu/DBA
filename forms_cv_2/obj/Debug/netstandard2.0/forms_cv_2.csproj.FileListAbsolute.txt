@@ -1,0 +1,16 @@
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\bin\Debug\netstandard2.0\forms_cv_2.deps.json
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\bin\Debug\netstandard2.0\forms_cv_2.dll
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\bin\Debug\netstandard2.0\ref\forms_cv_2.dll
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\bin\Debug\netstandard2.0\forms_cv_2.pdb
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.csproj.AssemblyReference.cache
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.AssemblyInfoInputs.cache
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.AssemblyInfo.cs
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.csproj.CoreCompileInputs.cache
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.dll
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\refint\forms_cv_2.dll
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\forms_cv_2.pdb
+C:\Users\98312\source\repos\forms_cv_2\forms_cv_2\forms_cv_2\obj\Debug\netstandard2.0\CVPage.xaml.g.cs
