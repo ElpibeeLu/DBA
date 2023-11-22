@@ -15,4 +15,3 @@ namespace forms_cv_2
             ocupacionLabel.Text = ocupacion;
         }
     }
-}
