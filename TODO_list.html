@@ -48,6 +48,18 @@
           document.querySelector('#tasks').appendChild(li);
 
           taskInput.value = '';
+
+          // Agregar listener para el botón 'Complete All'
+          document.querySelector('#complete-all').addEventListener('click', () => {
+            const tasks = document.querySelectorAll('#tasks li');
+            tasks.forEach(task => {
+              const checkbox = task.querySelector('input[type=checkbox]');
+              if (!checkbox.checked) {
+                checkbox.checked = true;
+                task.querySelector('span').classList.add('completed');
+              }
+            });
+          });
         };
       });
     </script>
@@ -58,6 +70,7 @@
     <form id="new-task">
       <input id="task" autocomplete="off" autofocus placeholder="New Task" type="text">
       <input type="submit">
+      <button id="complete-all" type="button">Complete All</button>
     </form>
     <ol id="tasks"></ol>
   </body>
